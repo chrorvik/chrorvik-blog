@@ -1,0 +1,28 @@
+{
+  "name": "chrorvik-blog",
+  "version": "0.0.1",
+  "description": "Personal blog for chrorvik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrorvik/chrorvik-blog.git"
+  },
+  "keywords": [
+    "chrorvik",
+    "blog",
+    "personal",
+    "tech"
+  ],
+  "author": "chrorvik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrorvik/chrorvik-blog/issues"
+  },
+  "homepage": "https://github.com/chrorvik/chrorvik-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
