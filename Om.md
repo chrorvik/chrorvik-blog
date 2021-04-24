@@ -1,6 +1,6 @@
 --- 
 layout: base-layout.njk 
 --- 
-# Om meg! 👋🏻
+# Om Chris! 👋🏻
 
 Her skal jeg skrive noe om meg 👨‍🚀

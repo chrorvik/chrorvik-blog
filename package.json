@@ -27,5 +27,8 @@
   "homepage": "https://github.com/chrorvik/chrorvik-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
   }
 }

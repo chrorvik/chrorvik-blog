@@ -3,7 +3,8 @@ const moment = require('moment');
 moment.locale('nn');
  
 module.exports = function (eleventyConfig) {
- 
+  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addWatchTarget('css');
   eleventyConfig.addFilter('dateIso', date => {
     return moment(date).toISOString();
   });
@@ -12,6 +13,7 @@ module.exports = function (eleventyConfig) {
     return moment(date).utc().format('LL'); // E.g. 20. april 2021
   });
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
+  
 };
 function extractExcerpt(article) {
     if (!article.hasOwnProperty('templateContent')) {
@@ -37,6 +39,7 @@ function extractExcerpt(article) {
         return true; // Exit out of array loop on first match
       }
     });
-   
+
     return excerpt;
   }
+ 

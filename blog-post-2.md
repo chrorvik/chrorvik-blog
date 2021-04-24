@@ -1,10 +1,12 @@
 ---
 layout: post-layout.njk 
-title: How To Get Rich Quick
-date: 2019-06-01
+title: Mitt andre innlegg!
+date: 2021-04-22
 tags: ['post']
 ---
-Buy the latest and greatest cryptocurrency that no-one has heard of.
+<!-- Excerpt Start -->
+Her har du mitt andre innlegg! 👏
+<!-- Excerpt End -->
  
-## Legal Stuff
-We do not accept any liability for any loss or damage.
+ ## Overskrift
+Usikker på om jeg skal knytte 11ty til CMS eller om jeg bare skal kjøre markdown + styling. 
