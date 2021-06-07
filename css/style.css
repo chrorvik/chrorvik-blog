@@ -1,9 +1,5 @@
-body {
-<<<<<<< HEAD
-  background-color: blue;
-}
-=======
-  background-color: grey;
+* {
   font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4;
 }
->>>>>>> c56e04c85dfbb2eadc6f6727fd8762b059bf87d9
